@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calc.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <form action="">
+
+                <input type="text" id="screen"/>
+                <br>
+
+                <input type="button" class="button number" value="7" onclick="onClick(value)">
+                <input type="button" class="button number" value="8" onclick="onClick(value)">
+                <input type="button" class="button number" value="9" onclick="onClick(value)">
+                <input type="button" class="button operator" value="/" onclick="onClick(value)">
+                <br>
+
+                <input type="button" class="button number" value="4" onclick="onClick(value)">
+                <input type="button" class="button number" value="5" onclick="onClick(value)">
+                <input type="button" class="button number" value="6" onclick="onClick(value)">
+                <input type="button" class="button operator" value="*" onclick="onClick(value)">
+                <br>
+
+                <input type="button" class="button number" value="1" onclick="onClick(value)">
+                <input type="button" class="button number" value="2" onclick="onClick(value)">
+                <input type="button" class="button number" value="3" onclick="onClick(value)">
+                <input type="button" class="button operator" value="+" onclick="onClick(value)">
+                <br>
+
+                <input type="button" class="button clear" value="C" onclick="clearScreen()">
+                <input type="button" class="button number" value="0" onclick="onClick(value)">
+                <input type="button" class="button result" value="=" onclick="findResult()">
+                <input type="button" class="button operator" value="-" onclick="onClick(value)">
+                <br>
+        </form>
+    </div>
+
+
+    <script src="calc.js"></script>
+</body>
+</html>
